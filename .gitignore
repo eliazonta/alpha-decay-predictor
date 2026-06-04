@@ -1,0 +1,6 @@
+# Whitelist mode: the public repo contains ONLY the showcase README and the
+# report image. All code, data, and private docs stay local.
+*
+!.gitignore
+!README.md
+!alpha_decay_report.png
