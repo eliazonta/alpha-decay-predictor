@@ -1,0 +1,7 @@
+pykx
+pandas
+numpy
+lightgbm
+scipy
+matplotlib
+pytest

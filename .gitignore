@@ -1,6 +1,20 @@
-# Whitelist mode: the public repo contains ONLY the showcase README and the
-# report image. All code, data, and private docs stay local.
-*
-!.gitignore
-!README.md
-!alpha_decay_report.png
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# LOBSTER sample data — licensing/redistribution restrictions, keep local.
+# Download from https://lobsterdata.com/info/DataSamples.php into data/
+data/
+
+# Local setup notes (machine-specific paths, license locations) — stays local
+DEVELOPMENT.md
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
